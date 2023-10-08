@@ -1,0 +1,15 @@
+#container
+{
+    align-content: center;
+    background-color: grey;
+}
+
+#error
+{
+    color:darkred;
+}
+
+table, th, td 
+{
+    border: 1px solid;
+}

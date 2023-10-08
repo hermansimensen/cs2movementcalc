@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="lib.js"></script> 
 
+        <div id="container">
+            <h1>CS2 Movement Calculator</h1>
+            <b>Subtick time? (from 0.0 to 1.0)</b>
+            <input type="text" id="subtick_val"><b id="error"></b>
+            <br>
+            <button id="doCalculations" onclick = "StartCalculations()">Calculate</button>
+        </div>
+
+        <div id="tableContainer" style="display: flex;">
+            <div style="flex: 1;">
+                <h3>CS2 With subtick</h3>
+                <table id="CS2data">
+                    <tr>
+                        <th>Tick</th>
+                        <th>Velocity</th>
+                    </tr>
+                </table>
+            </div>
+        
+            <div style="flex: 1;">
+                <h3>CS2 Without subtick</h3>
+                <table id="nosubtick_data">
+                    <tr>
+                        <th>Tick</th>
+                        <th>Velocity</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </body>
+</html> 
